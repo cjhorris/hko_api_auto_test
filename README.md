@@ -1,6 +1,12 @@
 # HKO Open Data API test automation
-### python + cucumber(behave)
+## Design
+python + cucumber(behave) \
+Behavior-Driven Development (BDD) by executable test cases
 
+
+For more info of cucumber please refer [cucumber official doc](https://cucumber.io/) \
+For more info of behave please refer [behave official doc](https://behave.readthedocs.io/en/stable/)
+## Setup instructions
 #### 1. Docker build image
 ``
  docker build -t python-behave . 

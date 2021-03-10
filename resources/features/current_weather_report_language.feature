@@ -1,5 +1,6 @@
 @current_weather_report_language @language
 Feature: Current Weather Report check response in different language
+  Request different lang parameters and check the response as shown as expected
 
   Scenario Outline: Check if default language is en with request without lang
     Given WeatherAPI get request

@@ -1,5 +1,6 @@
 @current_weather_report_error @error_scenarios
 Feature: Current Weather Report Error Test Cases
+  To test the error message by passing wrong parameter
 
   Scenario Outline: Current Weather Report wrong lang
     When WeatherAPI get request
